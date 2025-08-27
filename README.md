@@ -16,16 +16,15 @@ It extracts `.mp3` chapter links from a given audiobook page and downloads them 
 ## **🚀 How to Use**  
 
 ### **1 Install Requirements**  
-Make sure you have Python **3.12+** installed. Then, install dependencies:  
+Make sure you have Python **3.12+** installed. Then, install dependencies inside the terminal 
 ```sh
-pip install requests m3u8 beautifulsoup4 tqdm playwright mutagen
-playwright install
+./scripts/install.sh
 ```
 
 ### **2 Run the Script**  
 Run the main.py script:  
 ```sh
-python main.py
+python3 main.py
 ```
 Enter the tokybook URL you want downloaded in the terminal window when it prompts you.
 
