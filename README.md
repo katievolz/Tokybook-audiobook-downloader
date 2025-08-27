@@ -16,15 +16,15 @@ It extracts `.mp3` chapter links from a given audiobook page and downloads them 
 ## **🚀 How to Use**  
 
 ### **1 Install Requirements**  
-Make sure you have Python **3.12+** installed. Then, install dependencies:  
+Make sure you have Python **3.12+** installed. Then, install dependencies inside the terminal 
 ```sh
-pip3 install requests beautifulsoup4 tqdm lxml mutagen
+./scripts/install.sh
 ```
 
 ### **2 Run the Script**  
 Run the main.py script:  
 ```sh
-python main.py
+python3 main.py
 ```
 Enter the tokybook URL you want downloaded in the terminal window when it prompts you.
 
@@ -43,4 +43,3 @@ The chapters will be downloaded into a **folder named after the audiobook**.
 - The script **only works with** [TokyoBook](https://tokybook.com/) audiobooks.  
 - Chapter filenames are saved as **`Chapter 01.mp3`, `Chapter 02.mp3`, etc.**  
 - If the book title contains **invalid characters**, they will be replaced automatically.  
-- If you **re-run the script**, it will overwrite existing files if they already exist in the folder.

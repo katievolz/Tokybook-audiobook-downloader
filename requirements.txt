@@ -1,0 +1,6 @@
+requests
+m3u8
+beautifulsoup4
+tqdm
+playwright
+mutagen
